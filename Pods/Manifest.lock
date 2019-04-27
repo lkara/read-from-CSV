@@ -1,0 +1,22 @@
+PODS:
+  - CSV.swift (2.3.1)
+  - SQLite.swift (0.12.0):
+    - SQLite.swift/standard (= 0.12.0)
+  - SQLite.swift/standard (0.12.0)
+
+DEPENDENCIES:
+  - CSV.swift (~> 2.3.1)
+  - SQLite.swift (~> 0.12.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CSV.swift
+    - SQLite.swift
+
+SPEC CHECKSUMS:
+  CSV.swift: d16f671b3090a2c0525d5f2165b18319074aae2b
+  SQLite.swift: 7cad9db150a03716336e69469ec9559c85aece5b
+
+PODFILE CHECKSUM: 219d8035f2369e0cc951da2bb32b5745d82de3d6
+
+COCOAPODS: 1.6.1

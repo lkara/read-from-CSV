@@ -1,0 +1,6 @@
+framework module Pods_readFromCSV {
+  umbrella header "Pods-readFromCSV-umbrella.h"
+
+  export *
+  module * { export * }
+}
