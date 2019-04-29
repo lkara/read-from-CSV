@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		006AC2B3227758B400B1F7FA /* bra.csv in Resources */ = {isa = PBXBuildFile; fileRef = 006AC2B2227758B400B1F7FA /* bra.csv */; };
 		00E4334C2271EF45004EB282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E4334B2271EF45004EB282 /* AppDelegate.swift */; };
 		00E4334E2271EF45004EB282 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E4334D2271EF45004EB282 /* ViewController.swift */; };
 		00E433512271EF45004EB282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E4334F2271EF45004EB282 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		006AC2B2227758B400B1F7FA /* bra.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = bra.csv; sourceTree = "<group>"; };
 		00E433482271EF45004EB282 /* readFromCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readFromCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E4334B2271EF45004EB282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00E4334D2271EF45004EB282 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		006AC2B622775E7C00B1F7FA /* Garment Data */ = {
+			isa = PBXGroup;
+			children = (
+				006AC2B2227758B400B1F7FA /* bra.csv */,
+			);
+			path = "Garment Data";
+			sourceTree = "<group>";
+		};
 		00E4333F2271EF45004EB282 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 			children = (
 				00E4334B2271EF45004EB282 /* AppDelegate.swift */,
 				00E4334D2271EF45004EB282 /* ViewController.swift */,
+				006AC2B622775E7C00B1F7FA /* Garment Data */,
 				00E4334F2271EF45004EB282 /* Main.storyboard */,
 				00E433522271EF48004EB282 /* Assets.xcassets */,
 				00E433542271EF48004EB282 /* LaunchScreen.storyboard */,
@@ -148,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006AC2B3227758B400B1F7FA /* bra.csv in Resources */,
 				00E433562271EF48004EB282 /* LaunchScreen.storyboard in Resources */,
 				00E433532271EF48004EB282 /* Assets.xcassets in Resources */,
 				00E433512271EF45004EB282 /* Main.storyboard in Resources */,

@@ -12,7 +12,6 @@ import SQLite
 
 class ViewController: UIViewController {
 
-    let stream = InputStream(fileAtPath: "/Users/Lydia/Documents/year3/Final Project/zipa_final02/women-bra.csv")!
     var size = "string"
     
     //database connection
@@ -24,8 +23,7 @@ class ViewController: UIViewController {
     let bra = Expression<String>("bra")
     let bust = Expression<Int>("bust")
     let underbust = Expression<Int>("underbust")
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         do{
@@ -50,6 +48,8 @@ class ViewController: UIViewController {
         printInConsole()
     }
 
+    
+    
     func createTable() {
         let createBraTable = braTable.create { (table) in
             table.column(self.cup)
@@ -68,6 +68,8 @@ class ViewController: UIViewController {
     }
     
     func testingCSV() {
+        let filepath = Bundle.main.path(forResource: "bra", ofType: "csv")!
+        let stream = InputStream(fileAtPath: filepath)!
         let csv = try! CSVReader(stream: stream, hasHeaderRow: true)
 
         while csv.next() != nil {
